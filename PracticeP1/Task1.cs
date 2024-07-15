@@ -278,14 +278,9 @@ namespace PracticeP1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             var mainForm = new MainForm();
             mainForm.Show();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Task1_FormClosing(object sender, FormClosingEventArgs e)

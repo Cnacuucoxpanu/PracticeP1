@@ -175,7 +175,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Выберите категорию поезда";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
