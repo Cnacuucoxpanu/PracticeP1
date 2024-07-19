@@ -38,6 +38,7 @@ namespace PracticeP1
 
             treeView1.AfterCheck += TreeView1_AfterCheck;
             ExcelFileButton.Click += ExcelFileButton_Click;
+            this.FormClosing += ExcelForm_FormClosing;
         }
 
         private void LoadDates()
@@ -102,12 +103,9 @@ namespace PracticeP1
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ExcelForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.Close();
-            var mainForm = new MainForm();
-            mainForm.Show();
+            Application.Exit();
         }
-
     }
 }

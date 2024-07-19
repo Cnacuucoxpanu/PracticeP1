@@ -65,5 +65,10 @@ namespace PracticeP1
                 MessageBox.Show("Загрузите XML файл");
             }
         }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
