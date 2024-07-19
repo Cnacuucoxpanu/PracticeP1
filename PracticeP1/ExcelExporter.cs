@@ -14,11 +14,11 @@ namespace PracticeP1
             var workbook = new XLWorkbook();
             var worksheet = workbook.Worksheets.Add("Train Schedule");
 
-            worksheet.Cell(1, 1).Value = "Train Number";
-            worksheet.Cell(1, 2).Value = "Station Name";
-            worksheet.Cell(1, 3).Value = "Arrival Time";
-            worksheet.Cell(1, 4).Value = "Departure Time";
-            worksheet.Cell(1, 5).Value = "Date";
+            worksheet.Cell(1, 1).Value = "№ поезда";
+            worksheet.Cell(1, 2).Value = "Станция";
+            worksheet.Cell(1, 3).Value = "Прибытие";
+            worksheet.Cell(1, 4).Value = "Отправление";
+            worksheet.Cell(1, 5).Value = "Дата";
 
             int currentRow = 2;
 
