@@ -104,7 +104,7 @@ namespace PracticeP1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             var mainForm = new MainForm();
             mainForm.Show();
         }
