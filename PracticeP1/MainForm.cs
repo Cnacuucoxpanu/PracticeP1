@@ -57,8 +57,8 @@ namespace PracticeP1
             if (xmlDoc != null)
             {
                 this.Hide();
-                var task1Form = new Task1(xmlDoc);
-                task1Form.Show();
+                var excelForm = new ExcelForm(xmlDoc);
+                excelForm.Show();
             }
             else
             {

@@ -1,6 +1,6 @@
 ﻿namespace PracticeP1
 {
-    partial class Task1
+    partial class ExcelForm
     {
         /// <summary>
         /// Required designer variable.
@@ -207,7 +207,7 @@
             this.ExcelFileButton.Text = "Сформировать файл";
             this.ExcelFileButton.UseVisualStyleBackColor = false;
             // 
-            // Task1
+            // ExcelForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -215,8 +215,8 @@
             this.Controls.Add(this.ExcelFileButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
-            this.Name = "Task1";
-            this.Text = "Task1";
+            this.Name = "ExcelForm";
+            this.Text = "ExcelForm";
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.endMinutePicker)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.endHourPicker)).EndInit();
